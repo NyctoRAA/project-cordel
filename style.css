@@ -1,0 +1,127 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --font1: Arial, Helvetica, sans-serif;
+    --font2: 'Passion One', cursive;
+    --font3: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body, section {
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 65px;
+}
+
+header > h1 {
+    padding-top: 50px;
+    color: white;
+    font-family: var(--font2);
+    font-size: 10vw;
+    font-variant: small-caps;
+}
+
+header > p {
+    font-family: var(--font1);
+    color: white;
+    font-style: normal;
+    padding-bottom: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.q {
+    font-family: var(--font3);
+    font-size: 3.7vw;
+    line-height: 2em;
+    font-weight: bold;
+    margin-left: 20px;
+    padding-bottom: 2.2em;
+
+}
+
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.container {
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.904);
+    display: inline-block;
+    padding: 5px;
+    position: relative;
+    width: 100vw;
+    background-image: url('imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+p#conteudo {
+    background-color: rgba(0, 0, 0, 0.356);
+    text-shadow: 1px 1px 0px black;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    top: 25%;
+    left: 6%;
+    margin-bottom: 150px;
+}
+
+
+
+section.container2 {
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.904);
+    position: relative;
+    width: 100vw;
+    background-image: url('imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p#conteudo2 {
+    background-color: rgba(0, 0, 0, 0.356);
+    text-shadow: 1px 1px 0px black;
+    padding: 20px;
+    position: absolute;
+    top: 25%;
+    left: 6%;
+    margin-bottom: 150px;
+    color: white;
+}
+
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+
